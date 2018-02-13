@@ -23,39 +23,43 @@
 <body class="rt-body">
 <!-- HelloPreload  -->
 <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #000000 url(http://hello-site.ru//main/images/preloads/oval.svg) center center no-repeat;background-size:80px;}</style>
-<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
-<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},0);};</script>
 <!-- HelloPreload / -->
 
 <div class="page-wrap">
     <header>
         <!-- MAIN NAVIGATION - BEGINS -->
         <nav class="nav-main">
-            <a id="toTechn" href="index.html" class="is-active">В Технополис</a>
-            <a id="toMetro" href="../technobus-html/tube.html" class="">К Метро</a>
+            <a id="toTechn" href="javascript:" class="is-active">В Технополис</a>
+            <a id="toMetro" href="javascript:" class="">К Метро</a>
         </nav>
         <!-- MAIN NAVIGATION - ENDS -->
     </header>
 
     <!-- TIMELINE - BEGINS -->
-    <section class="timeline-wrap">
-        <!--change inputSuda-->
-        <ul class="timeline" id="inputSuda">
+    <section class="timeline-wrap" id="timelineDirection">
 
-
-            <!-- COPYRIGHT - BEGINS -->
-            <div class="copyright">
-                <p>Made By</p>
-                <svg class="icon-logo-roi">
-                    <use xlink:href="assets/svg/defs.svg#icon-logo-roi"></use>
-                </svg>
-                <p>Updated 05.02.2018</p>
-            </div>
-            <!-- COPYRIGHT - ENDS -->
+        <ul class="timeline" id="scheduleList0">
 
         </ul>
+
+        <ul class="timeline" id="scheduleList1">
+
+        </ul>
+        <!-- COPYRIGHT - BEGINS -->
+        <div class="copyright">
+            <p>Made By</p>
+            <svg class="icon-logo-roi">
+                <use xlink:href="assets/svg/defs.svg#icon-logo-roi"></use>
+            </svg>
+            <p>Updated 05.02.2018</p>
+        </div>
+        <!-- COPYRIGHT - ENDS -->
     </section>
     <!-- TIMELINE - ENDS -->
+
+
 
     <footer>
         <!-- EXTRA NAVIGATION - BEGINS -->
